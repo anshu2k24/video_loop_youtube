@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "YouTube Loop Button",
+  "version": "1.0",
+  "description": "Adds a loop button to YouTube videos",
+  "permissions": [
+    "activeTab"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["https://www.youtube.com/*"],
+      "js": ["content.js"],
+      "css": ["styles.css"]
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+.loop-button {
+  background: none !important;
+  border: none !important;
+  color: white !important;
+  cursor: pointer !important;
+  font-size: 16px !important;
+  padding: 8px !important;
+  margin: 0 4px !important;
+  border-radius: 2px !important;
+  opacity: 0.8 !important;
+  transition: opacity 0.2s !important;
+}
+
+.loop-button:hover {
+  opacity: 1 !important;
+  background-color: rgba(255, 255, 255, 0.1) !important;
+}
+
+.loop-button.active {
+  opacity: 1 !important;
+  background-color: rgba(255, 255, 255, 0.2) !important;
+  color: #ff6b6b !important;
+}
